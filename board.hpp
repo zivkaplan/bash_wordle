@@ -1,3 +1,4 @@
+
 #ifndef ME_BOARD_HPP
 #define ME_BOARD_HPP
 
@@ -5,13 +6,12 @@
 
 namespace wordle
 {
-
-class Board
-{
-public:
-    void Draw() const;
-    std::array<Line, 6> m_lines;
-};
-} // namespace wordle
+    class Board
+    {
+    public:
+        void Draw() const;
+        std::array<Line, 6> m_lines;
+    };
+}
 
 #endif
